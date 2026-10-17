@@ -1,0 +1,55 @@
+id|label|hebrew|parshah|haftarah_ashkenazi|haftarah_sephardi
+p01|Bereshit|בראשית|Genesis 1:1-6:8|Isaiah 42:5-43:10|Isaiah 42:5-42:21
+p02|Noach|נח|Genesis 6:9-11:32|Isaiah 54:1-55:5|Isaiah 54:1-54:10
+p03|Lech-Lecha|לך לך|Genesis 12:1-17:27|Isaiah 40:27-41:16|Isaiah 40:27-41:16
+p04|Vayera|וירא|Genesis 18:1-22:24|2 Kings 4:1-4:37|2 Kings 4:1-4:23
+p05|Chayei Sara|חיי שרה|Genesis 23:1-25:18|1 Kings 1:1-1:31|1 Kings 1:1-1:31
+p06|Toldot|תולדות|Genesis 25:19-28:9|Malachi 1:1-2:7|Malachi 1:1-2:7
+p07|Vayetzei|ויצא|Genesis 28:10-32:3|Hosea 12:13-14:10|Hosea 11:7-12:12
+p08|Vayishlach|וישלח|Genesis 32:4-36:43|Obadiah 1:1-1:21|Obadiah 1:1-1:21
+p09|Vayeshev|וישב|Genesis 37:1-40:23|Amos 2:6-3:8|Amos 2:6-3:8
+p10|Miketz|מקץ|Genesis 41:1-44:17|1 Kings 3:15-4:1|1 Kings 3:15-4:1
+p11|Vayigash|ויגש|Genesis 44:18-47:27|Ezekiel 37:15-37:28|Ezekiel 37:15-37:28
+p12|Vayechi|ויחי|Genesis 47:28-50:26|1 Kings 2:1-2:12|1 Kings 2:1-2:12
+p13|Shemot|שמות|Exodus 1:1-6:1|Isaiah 27:6-28:13; Isaiah 29:22-29:23|Jeremiah 1:1-2:3
+p14|Vaera|וארא|Exodus 6:2-9:35|Ezekiel 28:25-29:21|Ezekiel 28:25-29:21
+p15|Bo|בא|Exodus 10:1-13:16|Jeremiah 46:13-46:28|Jeremiah 46:13-46:28
+p16|Beshalach|בשלח|Exodus 13:17-17:16|Judges 4:4-5:31|Judges 5:1-5:31
+p17|Yitro|יתרו|Exodus 18:1-20:23|Isaiah 6:1-7:6; Isaiah 9:5-9:6|Isaiah 6:1-6:13
+p18|Mishpatim|משפטים|Exodus 21:1-24:18|Jeremiah 34:8-34:22; Jeremiah 33:25-33:26|Jeremiah 34:8-34:22; Jeremiah 33:25-33:26
+p19|Terumah|תרומה|Exodus 25:1-27:19|1 Kings 5:26-6:13|1 Kings 5:26-6:13
+p20|Tetzaveh|תצוה|Exodus 27:20-30:10|Ezekiel 43:10-43:27|Ezekiel 43:10-43:27
+p21|Ki Tisa|כי תשא|Exodus 30:11-34:35|1 Kings 18:1-18:39|1 Kings 18:20-18:39
+p22|Vayakhel|ויקהל|Exodus 35:1-38:20|1 Kings 7:40-7:50|1 Kings 7:13-7:26
+p23|Pekudei|פקודי|Exodus 38:21-40:38|1 Kings 7:51-8:21|1 Kings 7:40-7:50
+p24|Vayikra|ויקרא|Leviticus 1:1-5:26|Isaiah 43:21-44:23|Isaiah 43:21-44:23
+p25|Tzav|צו|Leviticus 6:1-8:36|Jeremiah 7:21-8:3; Jeremiah 9:22-9:23|Jeremiah 7:21-8:3; Jeremiah 9:22-9:23
+p26|Shmini|שמיני|Leviticus 9:1-11:47|2 Samuel 6:1-7:17|2 Samuel 6:1-6:19
+p27|Tazria|תזריע|Leviticus 12:1-13:59|2 Kings 4:42-5:19|2 Kings 4:42-5:19
+p28|Metzora|מצורע|Leviticus 14:1-15:33|2 Kings 7:3-7:20|2 Kings 7:3-7:20
+p29|Achrei Mot|אחרי מות|Leviticus 16:1-18:30|Amos 9:7-9:15|Ezekiel 22:1-22:16
+p30|Kedoshim|קדושים|Leviticus 19:1-20:27|Ezekiel 22:1-22:19|Ezekiel 20:2-20:20
+p31|Emor|אמור|Leviticus 21:1-24:23|Ezekiel 44:15-44:31|Ezekiel 44:15-44:31
+p32|Behar|בהר|Leviticus 25:1-26:2|Jeremiah 32:6-32:27|Jeremiah 32:6-32:27
+p33|Bechukotai|בחקתי|Leviticus 26:3-27:34|Jeremiah 16:19-17:14|Jeremiah 16:19-17:14
+p34|Bamidbar|במדבר|Numbers 1:1-4:20|Hosea 2:1-2:22|Hosea 2:1-2:22
+p35|Nasso|נשא|Numbers 4:21-7:89|Judges 13:2-13:25|Judges 13:2-13:25
+p36|Beha'alotcha|בהעלתך|Numbers 8:1-12:16|Zechariah 2:14-4:7|Zechariah 2:14-4:7
+p37|Sh'lach|שלח|Numbers 13:1-15:41|Joshua 2:1-2:24|Joshua 2:1-2:24
+p38|Korach|קרח|Numbers 16:1-18:32|1 Samuel 11:14-12:22|1 Samuel 11:14-12:22
+p39|Chukat|חקת|Numbers 19:1-22:1|Judges 11:1-11:33|Judges 11:1-11:33
+p40|Balak|בלק|Numbers 22:2-25:9|Micah 5:6-6:8|Micah 5:6-6:8
+p41|Pinchas|פינחס|Numbers 25:10-30:1|1 Kings 18:46-19:21|1 Kings 18:46-19:21
+p42|Matot|מטות|Numbers 30:2-32:42|Jeremiah 1:1-2:3|Jeremiah 1:1-2:3
+p43|Masei|מסעי|Numbers 33:1-36:13|Jeremiah 2:4-2:28; Jeremiah 3:4|Jeremiah 2:4-2:28; Jeremiah 4:1-4:2
+p44|Devarim|דברים|Deuteronomy 1:1-3:22|Isaiah 1:1-1:27|Isaiah 1:1-1:27
+p45|Vaetchanan|ואתחנן|Deuteronomy 3:23-7:11|Isaiah 40:1-40:26|Isaiah 40:1-40:26
+p46|Eikev|עקב|Deuteronomy 7:12-11:25|Isaiah 49:14-51:3|Isaiah 49:14-51:3
+p47|Re'eh|ראה|Deuteronomy 11:26-16:17|Isaiah 54:11-55:5|Isaiah 54:11-55:5
+p48|Shoftim|שופטים|Deuteronomy 16:18-21:9|Isaiah 51:12-52:12|Isaiah 51:12-52:12
+p49|Ki Teitzei|כי תצא|Deuteronomy 21:10-25:19|Isaiah 54:1-54:10|Isaiah 54:1-54:10
+p50|Ki Tavo|כי תבוא|Deuteronomy 26:1-29:8|Isaiah 60:1-60:22|Isaiah 60:1-60:22
+p51|Nitzavim|נצבים|Deuteronomy 29:9-30:20|Isaiah 61:10-63:9|Isaiah 61:10-63:9
+p52|Vayeilech|וילך|Deuteronomy 31:1-31:30|Isaiah 55:6-56:8|Isaiah 55:6-56:8
+p53|Ha'azinu|האזינו|Deuteronomy 32:1-32:52|2 Samuel 22:1-22:51|2 Samuel 22:1-22:51
+p54|Vezot Haberakhah|וזאת הברכה|Deuteronomy 33:1-34:12|Joshua 1:1-1:18|Joshua 1:1-1:9
