@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekly Parshah</title>
+<meta name="version" content="{{VERSION}}">
+<meta name="description" content="Hebrew date and weekly parshah and haftarah readings for any date.">
+<style>
+/*STYLE*/
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Weekly Parshah</h1>
+    <p class="sub">Hebrew date and Torah and haftarah readings for the week of any date</p>
+  </header>
+
+  <section class="controls" aria-label="Options">
+    <div class="date-row">
+      <label for="date">Date</label>
+      <div class="date-nav">
+        <button id="prev" type="button" aria-label="Previous week" title="Previous week">‹</button>
+        <input id="date" type="date" min="0001-01-01" max="9999-12-31">
+        <button id="next" type="button" aria-label="Next week" title="Next week">›</button>
+        <button id="today" type="button" class="text">Today</button>
+      </div>
+    </div>
+    <div class="toggles">
+      <div class="seg" data-group="location" role="group" aria-label="Reading schedule">
+        <button type="button" data-value="diaspora" aria-pressed="true">Diaspora</button>
+        <button type="button" data-value="israel" aria-pressed="false">Israel</button>
+      </div>
+      <div class="seg" data-group="tradition" role="group" aria-label="Haftarah custom">
+        <button type="button" data-value="ashkenazi" aria-pressed="true">Ashkenazi</button>
+        <button type="button" data-value="sephardi" aria-pressed="false">Sephardi</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="result" aria-live="polite">
+    <div class="card date-card">
+      <p class="civil" id="civil"></p>
+      <p class="hebrew"><span id="hebrew"></span><span class="he" id="hebrew-he" lang="he" dir="rtl"></span></p>
+      <p class="note" id="evening"></p>
+    </div>
+
+    <div class="card reading-card">
+      <p class="eyebrow" id="shabbat"></p>
+      <h2><span id="parshah-name"></span><span class="he" id="parshah-he" lang="he" dir="rtl"></span></h2>
+      <p class="note" id="festival-note" hidden>No weekly parshah: this Shabbat is a festival, with its own special readings.</p>
+      <dl id="readings">
+        <div><dt>Torah</dt><dd><button type="button" class="cite" id="torah" data-kind="torah" aria-expanded="false" aria-controls="text-panel"></button></dd></div>
+        <div><dt id="haftarah-label">Haftarah</dt><dd><button type="button" class="cite" id="haftarah" data-kind="haftarah" aria-expanded="false" aria-controls="text-panel"></button></dd></div>
+      </dl>
+      <p class="hint" id="cite-hint">Select a reading to show its text.</p>
+    </div>
+
+    <div class="card text-card" id="text-panel" hidden>
+      <div class="text-head">
+        <h3 id="text-title"></h3>
+        <label class="switch"><input type="checkbox" id="cantillation" role="switch" checked> Cantillation</label>
+        <button type="button" id="text-close" class="icon" aria-label="Close text" title="Close">×</button>
+      </div>
+      <div id="text-body" lang="he" dir="rtl"></div>
+      <p class="note source">Masoretic text from the <a href="https://github.com/neelsmith/compnov">compnov</a> corpus.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Weeks run Sunday to Shabbat. Dates are civil (daytime) dates; the Hebrew date changes at sunset.
+    Haftarot shown are the regular ones for each parshah; special haftarot (e.g. for Rosh Chodesh or the four special Shabbatot) are not yet listed.</p>
+    <p class="version">Version {{VERSION}}</p>
+  </footer>
+</main>
+<script>
+/*SCRIPT*/
+</script>
+</body>
+</html>
