@@ -1,6 +1,8 @@
 // Builds dist/index.html: a single self-contained file with the CSS, the JS
 // modules and the data files inlined. Run with `npm run build`.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { iconLinks } from './icons.js';
 
 const root = new URL('../', import.meta.url);
 const read = (p) => readFileSync(new URL(p, root), 'utf8');
@@ -28,10 +30,15 @@ const script = [
 if (/^\s*(import|export)\b/m.test(script)) throw new Error('Unstripped import/export left in bundle');
 const safe = script.replace(/<\/script/gi, '<\\/script');
 
+// App icons (made by `npm run icons`), inlined into <head> as data: URIs.
+const icons = iconLinks(fileURLToPath(new URL('src/icons/', root)));
+if (icons.missing.length) console.warn(`Warning: icons missing from src/icons (run npm run icons): ${icons.missing.join(', ')}`);
+
 const html = read('src/index.html')
   .replace('/*STYLE*/', () => read('src/style.css'))
   .replace('/*SCRIPT*/', () => safe)
-  .replaceAll('{{VERSION}}', version);
+  .replaceAll('{{VERSION}}', version)
+  .replace('</head>', () => (icons.html ? icons.html + '\n' : '') + '</head>');
 
 mkdirSync(new URL('dist/', root), { recursive: true });
 writeFileSync(new URL('dist/index.html', root), html);
